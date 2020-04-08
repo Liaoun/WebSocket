@@ -1,0 +1,22 @@
+2020-03-09 21:59:54.400  INFO 11504 --- [main] c.i.w.WebsocketserviceApplicationTests   : No active profile set, falling back to default profiles: default
+2020-03-09 21:59:54.875  INFO 11504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-09 21:59:54.881  INFO 11504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-09 21:59:54.906  INFO 11504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-03-09 21:59:55.165  INFO 11504 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e93e7c50-c155-30c3-998d-8386a848a646
+2020-03-09 21:59:55.808  INFO 11504 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-09 21:59:56.310  INFO 11504 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2020-03-09 21:59:56.311  INFO 11504 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2020-03-09 21:59:58.187  WARN 11504 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-09 21:59:58.187  INFO 11504 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-09 21:59:58.193  WARN 11504 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-09 21:59:58.194  INFO 11504 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-09 21:59:58.475  INFO 11504 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-09 22:00:00.836  INFO 11504 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-03-09 22:00:02.653  INFO 11504 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-03-09 22:00:04.498  INFO 11504 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2020-03-09 22:00:04.555  WARN 11504 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-03-09 22:00:05.222  INFO 11504 --- [main] c.i.w.WebsocketserviceApplicationTests   : Started WebsocketserviceApplicationTests in 15.007 seconds (JVM running for 16.351)
+2020-03-09 22:00:05.432  INFO 11504 --- [SpringContextShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-03-09 22:00:05.435  INFO 11504 --- [SpringContextShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application WEBSOCKET-SERVICE with eureka with status DOWN
+2020-03-09 22:00:05.442  INFO 11504 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-09 22:00:05.653  INFO 11504 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'

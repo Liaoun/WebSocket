@@ -1,0 +1,45 @@
+
+
+server:
+
+  port: 9527
+
+
+
+eureka:
+
+  client:
+
+    service-url:
+
+      defaultZone: http://127.0.0.1:8080/eureka/
+
+
+
+zuul:
+  prefix: /
+  routes:
+    websocket-service:
+      path: /**
+      service-id: websocket-service
+#
+#    b:
+#      path: /b/**
+#      service-id: service-b
+#info:
+#
+#  app.name: gwolf-microcloudservice-zuul-gateway-9527
+#
+#  company.name: www.gwolf.com
+#
+#  build.artifactId: $project.artifactId$
+#
+#  build.version:  $project.version$
+
+
+
+spring:
+
+  application:
+
+    name: gateway
