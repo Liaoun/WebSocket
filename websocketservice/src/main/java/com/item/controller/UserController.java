@@ -14,9 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -25,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@RequestMapping("user")
+@RequestMapping(value = "user")
 @RestController
 public class UserController {
     MessageParse messageParse=new MessageParse();
@@ -37,19 +35,19 @@ public class UserController {
 
     /**
      * version 2.0
-     * @param us
+     * @param user
      * @return
      */
-    @PostMapping("login")
-    public Map<String,String> userLogin(User us){
+    @RequestMapping(value = "login",method = {RequestMethod.POST})
+    public Map<String,String> userLogin(@RequestBody User user){
         Map<String,String> map=new HashMap<>();
 
-        User user=service.userLogin(us);
+        User user1=service.userLogin(user);
         if (user==null){
             map.put("status","404");
         }
 
-        map.put("data",user.toString());
+        map.put("data",user1.toString());
         map.put("status","200");
         return map;
     }
@@ -61,7 +59,7 @@ public class UserController {
      * @return
      */
     @PostMapping("signUp")
-    public Boolean signUpUser(User user){
+    public Boolean signUpUser(@RequestBody User user){
         Boolean r=false;
         try {
             r= service.signUpUser(user);
@@ -162,7 +160,7 @@ public class UserController {
      * @return
      */
     @PostMapping("updatePwd")
-    public boolean updatePwd(User user){
+    public boolean updatePwd(@RequestBody User user){
         boolean r=false;
         try {
             r=service.updatePwd(user);

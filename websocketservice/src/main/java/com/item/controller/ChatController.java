@@ -8,32 +8,32 @@ import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("chat")
 public class ChatController {
     @Autowired
     ChatService service;
-    @RequestMapping("contentByUser")
-    public HttpEntity getChatContentByUser(User user){
+//    @RequestMapping("contentByUser")
+//    public HttpEntity getChatContentByUser(User user){
+//
+//        return new HttpEntity(null);
+//    }
 
-        return new HttpEntity(null);
-    }
-
-    @RequestMapping("getLastChatAcceptId")
-    public String getLastChatAcceptId(User user){
+    @PostMapping("getLastChatAcceptId")
+    public String getLastChatAcceptId(@RequestParam("user") User user){
         return service.getLastChatId(user);
     }
 
-    @RequestMapping("getLastChatContent")
-    public List<Chat> getLastChatContent(String send,String accpet){
+    @PostMapping("getLastChatContent")
+    public List<Chat> getLastChatContent(@RequestParam("send") String send, @RequestParam("accept") String accpet){
         return service.getChatContent(send,accpet);
     }
     @PostMapping("addChatRecord")
-    public boolean addChatRecord(Chat chat){
+    public boolean addChatRecord(@RequestParam("chat") Chat chat){
         boolean r=false;
         try {
             r=service.sendMessage(chat);
