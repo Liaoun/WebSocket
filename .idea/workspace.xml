@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4240db27-7625-4285-b723-57c5c3505870" name="Default Changelist" comment="" />
+    <list default="true" id="4240db27-7625-4285-b723-57c5c3505870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocketconnection/src/main/java/com/item/configure/BasicConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocketconnection/src/main/java/com/item/configure/WebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/spring/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/websocketservice/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,13 +67,18 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/websocketeureka" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\setting.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -75,10 +99,11 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,16 +115,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26541352" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea工作区间\WebSocket\websocketservice\src\main\java\com\item\configure" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.items" />
       <recent name="com.item" />
+      <recent name="com.items" />
       <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.item.configure" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea工作区间\WebSocket\websocketservice\src\main\java\com\item\configure" />
@@ -109,6 +137,67 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.WebsocketserviceApplication">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="couldconfig" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="couldconfig" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouldconfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="couldconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.item.CouldconfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="websocketconnection" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.item.WebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebsocketeurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="websocketeureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.item.WebsocketeurekaApplication" />
@@ -116,7 +205,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebsocketserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="WebsocketserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true">
       <module name="websocketservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.item.WebsocketserviceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -142,6 +231,8 @@
       <item itemvalue="Spring Boot.WebsocketserviceApplication" />
       <item itemvalue="Spring Boot.WebsocketzuulApplication" />
       <item itemvalue="Spring Boot.WebsocketzuulApplication (1)" />
+      <item itemvalue="Spring Boot.WebsocketApplication" />
+      <item itemvalue="Spring Boot.CouldconfigApplication" />
       <item itemvalue="Spring Boot.WebsocketeurekaApplication" />
     </list>
     <recent_temporary>
@@ -197,6 +288,13 @@
       <workItem from="1586316381379" duration="6153000" />
       <workItem from="1586331653673" duration="264000" />
       <workItem from="1586333471432" duration="1241000" />
+      <workItem from="1586344492489" duration="5595000" />
+      <workItem from="1586414680683" duration="2571000" />
+      <workItem from="1586686479035" duration="281000" />
+      <workItem from="1586687104516" duration="503000" />
+      <workItem from="1586687620384" duration="866000" />
+      <workItem from="1586688497311" duration="720000" />
+      <workItem from="1586689226117" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1586333601808</created>
@@ -205,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586333601808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hi">
+      <created>1586350722928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586350722928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,18 +325,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="240" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1583558978574" />
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586273775347">
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586344515570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586273775347" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586344515570" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1586189490598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586189490598" />
-    <state x="731" y="387" width="460" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586188413360">
+    <state x="731" y="387" width="460" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586689024071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="387" width="460" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1586188413360" />
+    <state x="731" y="387" width="460" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1586689024071" />
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583807612894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -244,46 +349,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="185" key="#toString()_Generation_Settings/0.0.1920.1040@0.0.1920.1040" timestamp="1583506413453" />
-    <state x="539" y="116" key="CommitChangelistDialog2" timestamp="1586333601215">
+    <state x="539" y="116" key="CommitChangelistDialog2" timestamp="1586350722353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586333601215" />
-    <state x="889" y="311" key="FileChooserDialogImpl" timestamp="1586334776460">
+    <state x="539" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586350722353" />
+    <state x="889" y="311" key="FileChooserDialogImpl" timestamp="1586688700283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="889" y="311" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586334776460" />
-    <state width="1877" height="403" key="GridCell.Tab.0.bottom" timestamp="1586325141025">
+    <state x="889" y="311" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586688700282" />
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.0.center" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.0.left" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.0.right" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.1.bottom" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.1.bottom" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.1.center" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.1.center" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.1.left" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.1.left" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
-    <state width="1877" height="403" key="GridCell.Tab.1.right" timestamp="1586325141025">
+    <state width="1877" height="413" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
+    <state width="1877" height="413" key="GridCell.Tab.1.right" timestamp="1586423136544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="403" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586325141025" />
+    <state width="1877" height="413" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586423136544" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1583582425862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,22 +405,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583582425862" />
-    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1586188452823">
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1586689180630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586188452823" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1586331734317">
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586689180630" />
+    <state x="623" y="291" key="NewModule_or_Project.wizard" timestamp="1586687786865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586331734317" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1586333660647">
+    <state x="623" y="291" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586687786865" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1586688702085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586333660647" />
-    <state x="652" y="420" key="com.intellij.ide.util.TipDialog" timestamp="1586331653115">
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586688702085" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1586350853052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="420" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586331653115" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586350853052" />
+    <state x="652" y="420" key="com.intellij.ide.util.TipDialog" timestamp="1586687110243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="652" y="420" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586687110243" />
     <state x="901" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583478597462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,14 +433,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="251" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583758045534" />
-    <state x="722" y="322" key="git4idea.merge.GitPullDialog" timestamp="1586333613234">
+    <state x="722" y="322" key="git4idea.merge.GitPullDialog" timestamp="1586350704727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="722" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586333613234" />
-    <state x="351" y="199" key="new project wizard" timestamp="1586188367541">
+    <state x="722" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586350704727" />
+    <state x="453" y="241" width="1043" height="646" key="new project wizard" timestamp="1586687734714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="351" y="199" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586188367541" />
+    <state x="453" y="241" width="1043" height="646" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586687734714" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1583662668559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
