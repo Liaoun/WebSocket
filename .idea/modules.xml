@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/WebSocket.iml" filepath="$PROJECT_DIR$/.idea/WebSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudconfig/cloudconfig.iml" filepath="$PROJECT_DIR$/cloudconfig/cloudconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudconfigclient/cloudconfigclient.iml" filepath="$PROJECT_DIR$/cloudconfigclient/cloudconfigclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketconnection/websocketconnection.iml" filepath="$PROJECT_DIR$/websocketconnection/websocketconnection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketeureka/websocketeureka.iml" filepath="$PROJECT_DIR$/websocketeureka/websocketeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketservice/websocketservice.iml" filepath="$PROJECT_DIR$/websocketservice/websocketservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocketzuul/websocketzuul.iml" filepath="$PROJECT_DIR$/websocketzuul/websocketzuul.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: websocket
+
+  main:
+    allow-bean-definition-overriding: true
+
+eureka:
+  client:
+    serviceUrl: #\u6CE8\u518C\u4E2D\u5FC3\u7684\u6CE8\u518C\u5730\u5740
+      defaultZone: http://127.0.0.1:8080/eureka/
+logging:
+  file:
+    path: spring

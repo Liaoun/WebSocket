@@ -14,10 +14,10 @@ import java.util.Map;
 @Service
 public class ChatService {
 
-    @Value("${pageHelper.count}")
+//    @Value("${pageHelper.count}")
     private int count;
 
-    @Value("${pageHelper.soncount}")
+//    @Value("${pageHelper.soncount}")
     private int soncount;
 
     /**
